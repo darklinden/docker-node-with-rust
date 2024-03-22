@@ -3,7 +3,7 @@
 BASEDIR=$(dirname "$0")
 PROJECT_DIR="$(realpath "${BASEDIR}")"
 
-IMAGE_NAME="node-with-rust:n16.20.2-r1.74.0"
+IMAGE_NAME="node-with-rust:n16.20.2-r1.76.0"
 
 # rm docker containers and images if exists
 CONTAINERS=$(docker ps -a -q -f name=$IMAGE_NAME)
